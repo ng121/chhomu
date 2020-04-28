@@ -67,6 +67,17 @@
             left: 30%;
             transform: translateX(-50%);
             top: 50vh;
+            width: 30vw;
+            height: 5vh;
+            background-color: white;
+            box-shadow: 2px 2px 5px black;
+            border-radius: 2.5vh;
+            transition: width 1s, height 1s;
+        }
+        
+        #mybtn:hover {
+            width: 31vw;
+            height: 6vh;
         }
     </style>
 </head>
@@ -141,12 +152,12 @@
         </div>
         <img src="somu.jpeg" alt="somu" width="100%" id="somu" style="margin: 0;">
 
-        <audio id="myaudio">
+        <audio controls id="myaudio">
         <source src="song.mpeg">
     </audio>
     </div>
     <div id="coverpage">
-        <button id="mybtn" onclick="myfn()">click me</button>
+        <button id="mybtn" onclick="myfn()">Go ahead</button>
     </div>
     <script src="app.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
