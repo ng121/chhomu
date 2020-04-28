@@ -1,5 +1,5 @@
 AOS.init({
-    duration: 3000,
+    duration: 1500,
     disable: false
 });
 var prevdate = new Date("Apr 5,2018 14:05:00").getTime();
@@ -16,3 +16,9 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = years + " yr  " + days + " d  " + hours + " h  " +
         minutes + " m  " + seconds + " s  ";
 });
+
+function myfn() {
+    document.getElementById("content").style.visibility = "visible";
+    document.getElementById("mybtn").style.display = "none";
+    document.getElementById("myaudio").play();
+}
