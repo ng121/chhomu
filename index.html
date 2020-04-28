@@ -78,6 +78,31 @@
             border-radius: 15vw;
             transition: width 1s, height 1s;
             font-family: 'PT Sans Narrow', sans-serif;
+            animation-name: btnanim;
+            animation-duration: 2s;
+            font-size: 6vw;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes btnanim {
+            0% {
+                width: 30vw;
+                height: 30vw;
+                border-radius: 15vw;
+                font-size: 6vw;
+            }
+            50% {
+                width: 35vw;
+                height: 35vw;
+                border-radius: 17.5vw;
+                font-size: 7vw;
+            }
+            100% {
+                width: 30vw;
+                height: 30vw;
+                border-radius: 15vw;
+                font-size: 6vw;
+            }
         }
         
         #mybtn:hover {
