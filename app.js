@@ -1,3 +1,7 @@
+AOS.init({
+    duration: 3000,
+    disable: false
+});
 var prevdate = new Date("Apr 5,2018 14:05:00").getTime();
 var x = setInterval(function() {
     var now = new Date().getTime();
