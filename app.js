@@ -19,6 +19,6 @@ var x = setInterval(function() {
 
 function myfn() {
     document.getElementById("content").style.display = "block";
-    document.getElementById("mybtn").style.display = "none";
+    document.getElementById("coverpage").style.display = "none";
     document.getElementById("myaudio").play();
 }
