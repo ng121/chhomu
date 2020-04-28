@@ -18,7 +18,7 @@ var x = setInterval(function() {
 });
 
 function myfn() {
-    document.getElementById("content").style.visibility = "visible";
+    document.getElementById("content").style.display = "block";
     document.getElementById("mybtn").style.display = "none";
     document.getElementById("myaudio").play();
 }
