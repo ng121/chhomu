@@ -2,7 +2,7 @@ AOS.init({
     duration: 1500,
     disable: false
 });
-var prevdate = new Date("Apr 16,2018 14:05:00").getTime();
+var prevdate = new Date("Apr 16,2018 02:05:00").getTime();
 var x = setInterval(function() {
     var now = new Date().getTime();
     var distance = now - prevdate;
